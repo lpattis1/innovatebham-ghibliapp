@@ -18,7 +18,7 @@ const People = (props) => {
           <div className="card-body">
             <h3 className="card-title person-title mt-4 mb-4">{props.name}</h3>
             <hr />
-            <h5 className="person-stats mt-3">Stats</h5>
+            <h5 className="stats-title mt-3">Stats</h5>
             <p className="card-text person-gender mt-4">
               <span className="stat-highlight">Gender:</span> {props.gender}
             </p>
