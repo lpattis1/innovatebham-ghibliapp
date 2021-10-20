@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #f4f4f4;
+}
+
+.header-logo {
+  height: 20rem;
+  margin-top: 4rem;
+  border: 0.1rem solid black;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  object-fit: contain;
+}
+
+.generate-btn {
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  color: white;
+  font-weight: 600;
+  border: 0.1rem solid black;
+}
+
+.films-btn {
+  background-color: #bdd0c4;
+}
+
+.people-btn {
+  background-color: #9ab7d3;
+}
+
+.generate-btn:hover {
+  color: rgb(236, 236, 236);
+  transition: 0.3s ease-in-out;
+  padding: 1.4rem 3.7rem;
+}
+
+.homepage-card {
+  width: 40rem;
+  margin-top: 5rem;
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 2rem;
+}
+
+.highlight {
+  color: #9ab7d3;
+  font-weight: 500;
+}
+
+.contact-info {
+  font-weight: 500;
+}
+
+.stat-highlight {
+  font-weight: 600;
+}
+
+.stats-title {
+  font-style: italic !important;
+}
+
+.search-btn {
+  text-decoration: none;
+  color: #9ab7d3;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.search-btn:hover {
+  color: #7f9ebb;
+  transition: 0.3s ease-in-out;
+}
+
+.search-input {
+  border: 0.1rem solid black;
+}
+
+.film-card {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin-top: 5rem;
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 2rem;
+  transition: 0.2s linear;
+}
+
+.people-card {
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin-top: 5rem;
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 2rem;
+  transition: 0.2s linear;
 }
