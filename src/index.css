@@ -101,3 +101,13 @@ body {
   padding: 2rem;
   transition: 0.3s linear;
 }
+
+.green-score {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.red-score {
+  color: #dc3545;
+  font-weight: 600;
+}
